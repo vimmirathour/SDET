@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+ </listeners>
+  <test name="Test">
+  <parameter name="username" value="admin"/>
+  <parameter name="password" value="password"/>
+    <classes>
+      <class name="TestNG_Session1.Activity1"/>
+      <class name="TestNG_Session1.Activity6"/>
+      <class name="TestNG_Session1.Activity7"/>
+      <class name="TestNG_Session1.Activity9"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
